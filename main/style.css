@@ -74,12 +74,12 @@ background-color: #000;
 filter: brightness(0.6) invert(100%);
 }
 
-#sidenav #home_tab{
+#sidenav #home_tab {
 height: calc(var(--nav-width) - 0.625em);
-background-image: url(img/logosmall.svg);
+background-image: url(img/car_care_logo.png);
 background-repeat: no-repeat;
-background-size: 1.75em 1.75em;
-background-position: 50%;
+background-size: contain; /* Cambiado de 1.75em a 'contain' */
+background-position: center; /* Cambiado de 50% a 'center' */
 }
 
 #config_tab{
